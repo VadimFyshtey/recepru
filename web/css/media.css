@@ -1,0 +1,210 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+   
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+.menu ul {
+  
+        display: none;
+        z-index: 12;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+   
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a
+	{
+		color: #FFF;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus
+	{
+		color: #FFF;
+		background-color: #2a3038;
+		box-shadow: 0 -3px #272d35 inset;
+	}
+    
+  .footer .copy{
+    position: absolute;
+    float: left;
+    padding: 0px 0px 0px 10px;
+    bottom: 27px;
+    font: 10px/18px Tahoma, sans-serif;
+    color: #000;
+}
+.footer a{
+    color: #000;
+    text-decoration: underline;
+    height: 2px;
+}
+.social img{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    bottom: 0px;
+    right: 22px;
+}
+   
+.OneReceptImg{
+    margin: 7px 7px 7px 7px;
+    max-height: 370px;
+        max-width: 370px;
+}
+.contact-form{
+    background-color: rgba(215, 249, 246, 0.29);
+    height: 455px;
+    width: 400px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    border-radius: 7px;
+    
+    -webkit-box-shadow: 0px 0px 10px #222;
+    -moz-box-shadow: 0px 0px 10px #222;
+    -ms-box-shadow: 0px 0px 10px #222;
+    -o-box-shadow: 0px 0px 10px #222;
+    box-shadow: 0px 0px 10px #222;
+}
+
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+ 
+.logo {
+       display: none;
+    }
+.search{
+    height: 30px;
+   margin-top: 30px;
+   
+}
+.content .receptImg{
+    float:left; /* Выравнивание по левому краю */
+    margin: 7px 7px 7px 7px; /* Отступы вокруг картинки */
+    width: 175px;
+    height: 175px;
+}  
+.topText p{
+    margin: 20px 10px 20px 20px;
+    font: 18px/22px Comic Sans MS, sans-serif;  
+    color: #000;
+}
+.OneReceptImg{
+    margin: 4px 4px 4px 4px;
+    max-height: 230px;
+        max-width: 230px;
+}
+img{
+    max-width: 170px;
+    max-height: 170px;
+   }
+   
+   .recipeName a{
+    
+    color: #000;
+     line-height: 1;
+    display: inline-block;
+    font: 16px/25px Tahoma, sans-serif;
+    text-decoration:none;
+    cursor: pointer;
+    padding: 0px;
+    margin: 0px;
+}
+
+.contact-form{
+    background-color: rgba(215, 249, 246, 0.29);
+    height: 455px;
+    width: 230px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    border-radius: 7px;
+    
+    -webkit-box-shadow: 0px 0px 10px #222;
+    -moz-box-shadow: 0px 0px 10px #222;
+    -ms-box-shadow: 0px 0px 10px #222;
+    -o-box-shadow: 0px 0px 10px #222;
+    box-shadow: 0px 0px 10px #222;
+}
+
+}
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+    .OneReceptImg{
+        margin: 2px 2px 2px 2px;
+    max-height: 175px;
+        max-width: 175px;
+}
+
+.contact-form{
+    background-color: rgba(215, 249, 246, 0.29);
+    height: 555px;
+    width: 150px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    border-radius: 7px;
+    
+    -webkit-box-shadow: 0px 0px 10px #222;
+    -moz-box-shadow: 0px 0px 10px #222;
+    -ms-box-shadow: 0px 0px 10px #222;
+    -o-box-shadow: 0px 0px 10px #222;
+    box-shadow: 0px 0px 10px #222;
+}
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+    
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+     .top_links {
+	    
+        display: block;
+       
+    }
+  
+      .logo-min{
+        display: none;
+    }
+    
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+   
+      .logo-min{
+        display: none;
+    }
+  
+     .menu ul li {
+         
+          vertical-align: middle;
+        z-index: 12;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

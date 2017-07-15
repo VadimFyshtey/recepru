@@ -1,0 +1,16 @@
+
+.beads {
+list-style: none;
+padding: 0;
+}
+.beads li {
+font-family: "Trebuchet MS", "Lucida Sans";
+padding: 7px 20px;
+margin-bottom: 10px;
+border-radius: 5px;
+border-left: 10px solid #f05d22; 
+
+font-size: 20px;
+letter-spacing: 2px;
+
+}
